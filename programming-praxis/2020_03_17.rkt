@@ -12,7 +12,10 @@
        (tr (map (if is-header th td) row))))))
 
 (define (csv->html in-port out-port)
-  (output-xml (list (doctype "html") (html (head (title "CSV to HTML")) (body (csv->html-table in-port))))
+  (output-xml (list (doctype "html")
+                    (html
+                     (head (title "CSV to HTML"))
+                     (body (csv->html-table in-port))))
               out-port))
 
 (csv->html (open-input-string "color,city,email,gender,ip address
