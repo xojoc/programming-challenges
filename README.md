@@ -1,6 +1,6 @@
 From time to time I like to write code for the sake of it. Here’s a collection of programming challenges that I’ve solved:
 
-  * [Programming Praxis](https://github.com/xojoc/programming-challenges/blob/master/programming-praxis) - problems of all kinds. Useful for learning new algorithms/data structures/concepts
+  * [Programming Praxis](https://github.com/xojoc/programming-challenges/blob/master/praxis) - problems of all kinds. Useful for learning new algorithms/data structures/concepts
 
 
 
