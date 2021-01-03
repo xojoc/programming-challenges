@@ -1,4 +1,5 @@
 #lang racket
+; https://programmingpraxis.com/2020/12/08/rhyming-sort/
 
 (require (only-in srfi/13 string-reverse))
 
