@@ -1,1 +1,1 @@
-[Avent of Code](https://xojoc.pw/challenges/aoc/)
+[Advent of Code](https://xojoc.pw/challenges/aoc/)

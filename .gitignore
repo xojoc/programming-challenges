@@ -1,1 +1,9 @@
 **/.ipynb_checkpoints
+aoc/*.py
+aoc/*.md
+aoc/_*
+euler/*.py
+euler/*.md
+euler/_*
+__pycache__
+
