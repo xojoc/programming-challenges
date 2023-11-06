@@ -1,0 +1,11 @@
+; run executable with: dune exec ./p2016_1.exe -w
+
+(library
+ (name aoc)
+ (inline_tests (deps (glob_files *.txt)))
+ (libraries base core core_unix ppx_inline_test)
+ (preprocess
+  (pps ppx_expect ppx_inline_test)))
+
+; (executables
+;  (names p2016_1 p2016_2))
