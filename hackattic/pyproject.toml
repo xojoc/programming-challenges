@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hackattic"
+version = "0.1.0"
+description = ""
+authors = ["Alexandru Cojocaru <hi@xojoc.pw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^10.0.0"
+numpy = "^1.25.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.320"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
